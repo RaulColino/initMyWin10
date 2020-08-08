@@ -1,4 +1,4 @@
-# win10script
+# initMyWin10
 Personal Windows 10 Script from a creation from multiple debloat scripts and gists from github.
 Read and understand what the script does before executing it. Use it at your own risk!
 
