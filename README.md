@@ -5,13 +5,13 @@ Read and understand what the script does before executing it. Use it at your own
 ## How to use it
 Open PowerShell cli and execute the following line of code: 
 ```sh
-powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://git.io/')"
+powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://github.com/RaulColino/initMyWin10.git')"
 ```
 
 ## Features
 - One Command to launch and run
 - Chocolatey Install
-- O&O Shutup10 CFG and Run
+- O&O Shutup10 configuration file CFG and Run
 - Install Programs
 - Debloat Microsoft Store Apps
 
