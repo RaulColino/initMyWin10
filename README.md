@@ -2,8 +2,13 @@
 Personal Windows 10 Script from a creation from multiple debloat scripts and gists from github.
 Read and understand what the script does before executing it. Use it at your own risk!
 
-## Additions
+## How to use it
+Open PowerShell cli and execute the following line of code: 
+```sh
+powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://git.io/')"
+```
 
+## Features
 - One Command to launch and run
 - Chocolatey Install
 - O&O Shutup10 CFG and Run
@@ -14,5 +19,5 @@ Read and understand what the script does before executing it. Use it at your own
 https://github.com/ChrisTitusTech/win10script
 
 ## Special thanks to 
-ChrisTitusTech for providing the script https://github.com/ChrisTitusTech/
+ChrisTitusTech for providing the base script https://github.com/ChrisTitusTech/
 
