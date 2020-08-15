@@ -86,9 +86,9 @@ $tweaks = @(
 	"DisableSuperfetch",          # "EnableSuperfetch",
 	"DisableIndexing",            # "EnableIndexing",
 	"SetBIOSTimeUTC",             # "SetBIOSTimeLocal",
-	"DisableHibernation",		# "EnableHibernation",          # 
-	"EnableSleepButton",		# "DisableSleepButton",         
-	"DisableSleepTimeout",        # "EnableSleepTimeout",
+	# "DisableHibernation",		# "EnableHibernation",          # 
+	# "EnableSleepButton",		# "DisableSleepButton",         
+	# "DisableSleepTimeout",        # "EnableSleepTimeout",
 	# "DisableFastStartup",         # "EnableFastStartup",
 
 	### UI Tweaks ###
@@ -113,7 +113,7 @@ $tweaks = @(
 	# "SetControlPanelSmallIcons",  # "SetControlPanelLargeIcons",  # "SetControlPanelCategories",
 	# "SetVisualFXPerformance",     # "SetVisualFXAppearance",
 	# "AddENKeyboard",              # "RemoveENKeyboard",
-	"EnableNumlock",             	# "DisableNumlock",
+	# "EnableNumlock",             	# "DisableNumlock",
 	#"EnableDarkMode",				# "DisableDarkMode",
 	"Stop-EdgePDF",
 
