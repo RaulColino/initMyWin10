@@ -11,7 +11,7 @@
 #	Tasks made by the script:
 #
 #	- Chocolatey Install
-#	- O&O Shutup10 CFG and Run
+#	- O"&"O Shutup10 CFG and Run
 #	- Install Programs
 #	- Debloat Microsoft Store Apps
 #
@@ -186,7 +186,7 @@ Function InstallInitPrograms {
 	Write-Output "Installing Chocolatey"
 	Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 	choco install chocolatey-core.extension -y
-	Write-Output "Running O&O Shutup with Recommended Settings"
+	Write-Output "Running OO Shutup with Recommended Settings"
 	Import-Module BitsTransfer
 	Start-BitsTransfer -Source "https://raw.githubusercontent.com/ChrisTitusTech/win10script/master/ooshutup10.cfg" -Destination ooshutup10.cfg
 	Start-BitsTransfer -Source "https://dl5.oo-software.com/files/ooshutup10/OOSU10.exe" -Destination OOSU10.exe
