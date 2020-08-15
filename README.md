@@ -5,7 +5,7 @@ Read and understand what the script does before executing it. Use it at your own
 ## How to use it
 Open PowerShell CLI and execute the following line of code: 
 ```sh
-powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://github.com/RaulColino/initMyWin10.git')"
+powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/RaulColino/initMyWin10/master/win10debloat.ps1')"
 ```
 
 ## Features
