@@ -6,7 +6,7 @@
 # Based on: https://github.com/ChrisTitusTech/win10script
 #
 #
-#     > powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://github.com/RaulColino/initMyWin10.git')"
+#     > powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/RaulColino/initMyWin10/master/win10debloat.ps1')"
 #
 #	Tasks made by the script:
 #
